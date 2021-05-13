@@ -38,7 +38,7 @@ function draw() {
   drawSprites();
 }
 
-function hasCollided(bullet,wall){
+function hasCollided(lbullet,lwall){
   bulletRightEdge = bullet.x + bullet.width;
   wallLeftEdge = wall.x;
   if(bulletRightEdge >= wallLeftEdge){
