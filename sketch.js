@@ -28,10 +28,10 @@ function draw() {
   bullet.velocityX = 0;
   var damage = 0.5*bullet.Weight*bullet.Speed*bullet.Speed/(thickness*thickness*thickness);
   if(damage>10){
-    1wall.shapeColor = color(255,0,0);
+    wall.shapeColor = color(255,0,0);
   }
   if(damage<10){
-    1wall.shapeColor = color(0,255,0)
+   wall.shapeColor = color(0,255,0)
   }
 }
  
