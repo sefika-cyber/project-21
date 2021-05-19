@@ -23,10 +23,10 @@ bullet.shapeColor=color(255,255,255);
 function draw() {
   background(0,0,0); 
  
-  if(hasCollided(lbullet,lwall));
+  if(hasCollided(bullet,wall));
 {
   bullet.velocityX = 0;
-  var damage = 0.5*lbullet.Weight*lbullet.Speed*lbullet.Speed/(thickness*thickness*thickness);
+  var damage = 0.5*bullet.Weight*bullet.Speed*bullet.Speed/(thickness*thickness*thickness);
   if(damage>10){
     1wall.shapeColor = color(255,0,0);
   }
